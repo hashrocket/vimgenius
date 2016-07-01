@@ -1,4 +1,4 @@
-require 'spec_helper'
+require 'rails_helper'
 
 describe User do
 
@@ -7,7 +7,7 @@ describe User do
   describe '.create_temporary' do
     it "returns a temporary user" do
       expect(user).to be_instance_of User
-      expect(user.temporary).to be_true
+      expect(user.temporary).to be true
     end
   end
 
