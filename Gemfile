@@ -5,12 +5,10 @@ ruby '2.3.1'
 gem 'rails', '4.0.0'
 
 gem 'authem'
-gem 'coffee-rails', '~> 4.0.0'
 gem 'decent_exposure'
 gem 'fabrication'
 gem 'formal'
 gem 'haml-rails'
-gem 'jbuilder', '~> 1.0.1'
 gem 'jquery-rails'
 gem 'pg'
 gem 'poltergeist'
@@ -18,11 +16,6 @@ gem 'puma'
 gem 'redcarpet'
 gem 'sass-rails', '~> 4.0.0'
 gem 'uglifier', '>= 1.3.0'
-
-group :development do
-  gem 'better_errors'
-  gem 'binding_of_caller'
-end
 
 group :development, :test do
   gem 'dotenv-rails'
