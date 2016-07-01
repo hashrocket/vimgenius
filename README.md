@@ -24,6 +24,15 @@ There are prebuilt lessons in `db/seeds/`.
 
 Run `rake`.
 
+## Deploy
+
+For deploying to production run:
+
+```shell
+heroku git:remote -a vim-genius
+git push heroku master
+```
+
 ---
 
 ## About

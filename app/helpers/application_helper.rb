@@ -21,11 +21,11 @@ module ApplicationHelper
   end
 
   def left_half(array)
-    split_array_in_half(array).first
+    split_array_in_half(Array.new(array)).first
   end
 
   def right_half(array)
-    split_array_in_half(array).second
+    split_array_in_half(Array.new(array)).second
   end
 
   private
