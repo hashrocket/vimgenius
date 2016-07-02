@@ -27,6 +27,9 @@ And /^I type "c2w"$/ do
   trigger_keyup
 end
 
+When /^I click to view the next command$/ do
+  click_on 'Next'
+end
 
 def trigger_keyup
   script = "e = $.Event('keyup'); e.keyCode= 13; $('body').trigger(e);"
