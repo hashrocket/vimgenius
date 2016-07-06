@@ -1,6 +1,6 @@
 VimGenius::Application.routes.draw do
 
-  get 'ui(/:action)', controller: 'ui'
+  get 'ui(/:action)', controller: 'ui' unless Rails.env.production?
 
   root to: 'home#index'
   resources :admin, only: [:index]
