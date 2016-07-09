@@ -1,11 +1,15 @@
-## Vim Genius
+# Vim Genius
 
 Vim Genius is a flashcard program that helps people learn Vim.
 
-## Setup
+### Setup
 
-```
-rake db:setup
+```sh
+$ git clone https://github.com/hashrocket/vimgenius
+$ cd vimgenius
+$ gem install bundler
+$ bundle install
+$ rake db:setup
 ```
 
 Add a `.env` file to the root directory with the following:
@@ -16,21 +20,21 @@ ADMIN_PASSWORD='vimmaster'
 
 That is not the actual password in production, it's just what the tests count on.
 
-## Prebuilt lessons
+### Prebuilt lessons
 
 There are prebuilt lessons in `db/seeds/`.
 
-## Run Tests
+### Run Tests
 
 Run `rake`.
 
-## Deploy
+### Deploy
 
 For deploying to production run:
 
-```shell
-heroku git:remote -a vim-genius
-git push heroku master
+```sh
+$ heroku git:remote -a vim-genius
+$ git push heroku master
 ```
 
 ---
