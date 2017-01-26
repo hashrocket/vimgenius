@@ -36,25 +36,25 @@ Ok, I hope you got all that, 'cause here's the quiz.
          )
 
 @level_1_commands = {
-  ":Rmo users" => "Open users model",
-  ":Rco users" => "Open users controller",
+  ":Rmo users"            => "Open users model",
+  ":Rco users"            => "Open users controller",
   ":Rvi users/index.html" => "Open view users/index.html",
-  ":AV"  => "Vertical split alternate file",
-  "gf" => "Go to file under cursor"
+  ":AV"                   => "Vertical split alternate file",
+  "gf"                    => "Go to file under cursor"
 }
 
 @level_2_commands = {
   ":RVvi home/index.html" => "Vertical split view home/index.html",
-  ":RTco users" => "Open new tab with users controller",
-  ":RTmo users" => "Open new tab with users model",
-  ":RVco comments" => "Vertical split comments controller",
+  ":RTco users"           => "Open new tab with users controller",
+  ":RTmo users"           => "Open new tab with users model",
+  ":RVco comments"        => "Vertical split comments controller",
 }
 
 @level_3_commands = {
   ":Rfeature users" => "Open users feature",
-  ":Rsteps users" => "Open users steps",
-  ":RVsteps users" => "Vertical split users steps",
-  ":RSsteps users" => "Vertical split users steps",
+  ":Rsteps users"   => "Open users steps",
+  ":RVsteps users"  => "Vertical split users steps",
+  ":RSsteps users"  => "Vertical split users steps",
 }
 
 1.upto(3) do |number|

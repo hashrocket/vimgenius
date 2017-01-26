@@ -19,13 +19,13 @@ All of this will be tested in the upcoming level.
          )
 
 @level_1_commands = {
-  "yw"             => "Yank word",
-  "yy"             => "Yank line",
-  "p"             => "Paste after cursor",
-  "P"             => "Paste before cursor",
+  "yw"                => "Yank word",
+  "yy"                => "Yank line",
+  "p"                 => "Paste after cursor",
+  "P"                 => "Paste before cursor",
   ":reg or :register" => "Show yank register",
-  "\"0p"             => "Paste from 0 register",
-  "\"ap"             => "Paste from \"a\" register",
+  "\"0p"              => "Paste from 0 register",
+  "\"ap"              => "Paste from \"a\" register",
 }
 
 @level_2_commands = {

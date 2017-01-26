@@ -26,12 +26,12 @@ Here are some of the common arglist commands you'll want to know:
 )
 
 @level_1_commands = {
-  ":arg" => "View arglist",
-  ":argdo %s/sam/bob/g" => 'Replace "sam" with "bob" in arglist',
+  ":arg"                               => "View arglist",
+  ":argdo %s/sam/bob/g"                => 'Replace "sam" with "bob" in arglist',
   ":arga names.rb or :argadd names.rb" => 'Add names.rb to arglist',
-  ":argd * or :argdelete *" => 'Clear arglist',
-  ":argdo update" => 'Save files in arglist',
-  ":argdo undo" => 'Undo changes to arglist',
+  ":argd * or :argdelete *"            => 'Clear arglist',
+  ":argdo update"                      => 'Save files in arglist',
+  ":argdo undo"                        => 'Undo changes to arglist',
 }
 
 1.upto(1) do |number|

@@ -19,10 +19,10 @@ This lesson will test your knowledge of Vim motions.
 }
 
 @level_2_commands = {
- "w" => "Next word",
- "e" => "End of word",
- "b" => "Beginning of word",
- "W" => "Next WORD (skip special characters)",
+ "w"  => "Next word",
+ "e"  => "End of word",
+ "b"  => "Beginning of word",
+ "W"  => "Next WORD (skip special characters)",
  "ge" => "End of previous word"
 }
 
