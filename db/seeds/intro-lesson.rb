@@ -26,7 +26,7 @@ To open VimTutor, just open a terminal and type `vimtutor`.
   "x"             => "Delete character at cursor",
   "i"             => "Insert at cursor",
   "I"             => "Insert at beginning of line",
-  "escape"        => "Exit insert mode",
+  "escape or ctrl+[" => "Exit insert mode",
   "a"             => "Append at cursor",
   "A"             => "Append at end of line",
 }
