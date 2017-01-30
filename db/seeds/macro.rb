@@ -28,9 +28,9 @@ Here's a quick recap:
 
 # fix control r issue
 @level_1_commands = {
-  "qq" => "Start recording macro in \"q\" register",
-  "q" => "Stop recording macro",
-  "@q" => "Play \"q\" macro",
+  "qq"         => "Start recording macro in \"q\" register",
+  "q"          => "Stop recording macro",
+  "@q"         => "Play \"q\" macro",
   ":normal @q" => "Play \"q\" macro across visual selection",
 }
 
