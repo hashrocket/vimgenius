@@ -22,7 +22,7 @@ To open VimTutor, just open a terminal and type `vimtutor`.
   ":q"               => "Close file",
   ":q!"              => "Close file, don't save changes",
   ":w"               => "Save changes to file",
-  ":wq or :x"        => "Save changes and close file",
+  ":wq or :x or ZZ"  => "Save changes and close file",
   "x"                => "Delete character at cursor",
   "i"                => "Insert at cursor",
   "I"                => "Insert at beginning of line",
